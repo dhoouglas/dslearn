@@ -24,4 +24,6 @@ INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) 
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas duvidas', 2, 'https://e7.pngegg.com/pngimages/146/439/png-clipart-teacher-education-classroom-course-teacher-text-rectangle.png', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para turma', 3, 'https://e7.pngegg.com/pngimages/146/439/png-clipart-teacher-education-classroom-course-teacher-text-rectangle.png', 0, 1);
 
-
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Neste capítulo vamos começar', 1, 'https://e7.pngegg.com/pngimages/146/439/png-clipart-teacher-education-classroom-course-teacher-text-rectangle.png', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Neste capítulo vamos continuar', 2, 'https://e7.pngegg.com/pngimages/146/439/png-clipart-teacher-education-classroom-course-teacher-text-rectangle.png', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Neste capítulo vamos finalizar', 3, 'https://e7.pngegg.com/pngimages/146/439/png-clipart-teacher-education-classroom-course-teacher-text-rectangle.png', 1, 2);
