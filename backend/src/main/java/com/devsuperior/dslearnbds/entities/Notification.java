@@ -36,10 +36,10 @@ public class Notification implements Serializable {
 		
 	}
 
-	public Notification(Long id, String text, Instant momeent, boolean read, String route, User user) {
+	public Notification(Long id, String text, Instant moment, boolean read, String route, User user) {
 		this.id = id;
 		this.text = text;
-		this.moment = momeent;
+		this.moment = moment;
 		this.read = read;
 		this.route = route;
 		this.user = user;
@@ -61,12 +61,12 @@ public class Notification implements Serializable {
 		this.text = text;
 	}
 
-	public Instant getMomeent() {
+	public Instant getMoment() {
 		return moment;
 	}
 
-	public void setMomeent(Instant momeent) {
-		this.moment = momeent;
+	public void setMomeent(Instant moment) {
+		this.moment = moment;
 	}
 
 	public boolean isRead() {
