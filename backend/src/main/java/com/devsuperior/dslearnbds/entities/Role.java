@@ -23,9 +23,9 @@ public class Role implements Serializable{
 		
 	}
 
-	public Role(Long id, String authory) {
+	public Role(Long id, String authority) {
 		this.id = id;
-		this.authority = authory;
+		this.authority = authority;
 	}
 
 	public Long getId() {
@@ -36,12 +36,12 @@ public class Role implements Serializable{
 		this.id = id;
 	}
 
-	public String getAuthory() {
+	public String getAuthority() {
 		return authority;
 	}
 
-	public void setAuthory(String authory) {
-		this.authority = authory;
+	public void setAuthory(String authority) {
+		this.authority = authority;
 	}
 
 	@Override
